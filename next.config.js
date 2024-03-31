@@ -4,6 +4,7 @@ const nextConfig = {
   images: { unoptimized: true },
   basePath: '/developer-portfolio',
   assetPrefix: '/developer-portfolio/',
+  distDir:"build",
 }
 
 module.exports = nextConfig
