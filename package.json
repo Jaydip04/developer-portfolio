@@ -9,7 +9,7 @@
   "scripts": {
     "dev": "next dev",
     "dev:static": "serve ./out",
-    "build": "next build && next export",
+    "build": "next build && next serve",
     "start": "next start",
     "lint": "next lint",
     "format": "prettier --write --ignore-path .gitignore ."
