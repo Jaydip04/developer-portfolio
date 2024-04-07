@@ -8,9 +8,8 @@
   "private": false,
   "scripts": {
     "dev": "next dev",
-    "dev:static": "serve ./out",
-    "build": "next build && next serve",
-    "start": "next start",
+    "build": "next build && next serve .out",
+    "start": "node ./build/standalone/server.js",
     "lint": "next lint",
     "format": "prettier --write --ignore-path .gitignore ."
   },
